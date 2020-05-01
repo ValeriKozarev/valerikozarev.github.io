@@ -1,0 +1,106 @@
+body {
+  background-color: #FDFDFD;
+}
+
+p {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+}
+
+.lead {
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 24px;
+}
+
+#subtitle {
+  font-family: 'Nanum Gothic Semi-Bold', sans-serif;
+  font-size: 20px;
+}
+
+#footer-text {
+  text-align: center;
+}
+
+#title {
+  font-family: 'Source Sans Pro Semi-Bold', sans-serif;
+}
+
+#bottom {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: -5;
+  background-color: #DCDCDC;
+  padding: 1em;
+}
+
+#bottom-icons {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+#footer-text {
+  text-align: center;
+  font-family: 'Nanum Gothic Semi-Bold', sans-serif;
+  font-size: 20px;
+}
+
+.video {
+  width: 100%;
+}
+
+.video iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.project {
+  margin-top: 6em;
+  margin-bottom: 6em;
+  margin-left: 0;
+}
+
+.project-top {
+  margin-top: 2em;
+  margin-left: 0;
+}
+
+.project-bottom {
+  margin-top: 2em;
+  margin-left: 0;
+}
+
+.twitterborder {
+  width:400px;
+  height:300px;
+  margin-top:3px;
+  margin-right:5%;
+  padding-left: 2em;
+  float:right;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color:transparent !important;
+  padding-right: 12em;
+  padding-left: 12em;
+  padding-top: 5em;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  float: right;
+  padding: 1em;
+  padding-top: 0.25em;
+}
+
+.image {
+  height: 750px;
+  width: 550px;
+  display: inline-block !important;
+  margin-left: 0em;
+  padding:5px;
+}
