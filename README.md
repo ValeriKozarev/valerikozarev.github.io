@@ -4,5 +4,6 @@ This repo holds my current personal website, after I finish it I plan on going b
 
 Current TODOs:
 1. make the header a bit nicer and more responsive
+1.5. fix spacing so everything fits on a phone screen
 2. add custom fonts
 3. add portfolio page
