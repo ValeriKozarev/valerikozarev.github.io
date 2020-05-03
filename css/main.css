@@ -1,19 +1,13 @@
-.container {
+.container{
     max-width: 1280px;
+    height: 100%;
     padding: 0 1.5rem;
     margin: auto; 
     overflow: hidden;}
 
-#main-header {
-    height: 100vh;
-    color: #5f5f5f; }
-    #main-header .header-content {
-        text-align: center;
-        padding-top: 14rem; }
-    #main-header .header-content h1 {
-            font-size: 3.25rem;
-            line-height: 1.2; 
-            padding-left: 2rem;}
+.text-centered {
+    text-align: center;
+}
 
 #main-nav {
     display: flex;
@@ -21,44 +15,59 @@
     justify-content: space-between;
     padding-top: 1rem; }
     #main-nav ul {
-      display: flex;
-      justify-content: center; 
-      list-style-type: none; }
+        display: flex;
+        justify-content: center; 
+        list-style-type: none; }
     #main-nav li {
-      padding: 1rem 1.5rem; }
+        padding: 1rem 1.5rem; }
     #main-nav a {
-      text-decoration: none;
-      color: #5f5f5f;
-      text-transform: uppercase;
-      border-bottom: 3px transparent solid;
-      padding-bottom: 0.5rem;
-      transition: border-color 0.5s; }
-      #main-nav a:hover {
+        text-decoration: none;
+        color: #5f5f5f;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.5s; }
+        #main-nav a:hover {
         border-color: #5f5f5f; }
-      #main-nav a.current {
+        #main-nav a.current {
         border-color: #0E4D92; }
+
+
+#fancy-intro {
+    height: 100vh;
+    color: #5f5f5f;}
+    #fancy-intro .intro-content {
+        margin: auto;
+        padding-top: 14rem;
+    }
+    #fancy-intro .intro-content h1 {
+            font-size: 3rem;
+            line-height: 1.2;}
+
        
 .slot-machine {
-    font-size: 3.25rem;
+    font-size: 3rem;
     font-weight: 100;
-    color: #5f5f5f; }
+    color: #5f5f5f;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;}
     .slot-machine div {
         overflow: hidden;
         position: relative;
-        float: right;
         height: 6rem;
+        text-align: left;
         padding-top: 1rem;
-        margin-top: -1rem;
-        margin-left: -9rem;}
+        margin-top: -1rem;}
         .slot-machine li {
             text-align: left;
+            list-style-type: none; 
             color: #0E4D92;
             font-weight: 300;
-            padding: 0 1rem;
             height: 3rem;
             margin-bottom: 2.63rem;
-            margin-right: 2rem;
-            display: block; }
+ }
+ 
 
 .slot-4 { animation: slot-4 10s cubic-bezier(.42, 0, .58, 1) infinite; }
 
@@ -81,9 +90,8 @@
 .about-section {
     color: #5f5f5f;
     text-align: center;
-    padding: 3rem 0rem;
+    margin-top: 15rem;
     padding-bottom: 0rem;
-    padding-top: 1rem;
     font-size: 1.2rem;}
 
 .section-title {
@@ -100,7 +108,8 @@
 
 #about-layout {
     display: grid;
-    grid-template-areas: "avatar bio bio" "pic1 pic2 pic3";}
+    grid-template-areas: "avatar bio bio" "pic1 pic2 pic3";
+    grid-gap: 1rem;}
     #about-layout .bio {
         grid-area: bio;
         height: 300px;
