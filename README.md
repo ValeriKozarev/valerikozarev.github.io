@@ -1,9 +1,7 @@
 # valerikozarev.github.io
 
-This repo holds my current personal website, after I finish it I plan on going back through and updating it to be responsive! Check out the legacy branch to see what my website used to look like before I knew anything about CSS!
+This repo holds my current personal website! Feel free to take a look around. I'd say my understanding of HTML and CSS has come a long way since I first created a website but you can see for yourself by going to the legacy branch! Massive thanks to Jeff Nguyen, a good friend of mine who's website was a massive help in helping me fix issues when I got stuck and to this WordPen demo by Eric Porter which I used as the basis for my intro: https://codepen.io/EricPorter/pen/JjPmOOb.
 
 Current TODOs:
-1. make the header a bit nicer and more responsive  
-1.5. fix spacing so everything fits on a phone screen  
-2. add custom fonts
-3. add portfolio page
+1. add custom fonts
+2. add portfolio page
