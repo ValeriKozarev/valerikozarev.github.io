@@ -161,6 +161,20 @@ body {
         padding: 0 1.5rem;
         overflow: hidden;
     }
+    
+    #fancy-intro .intro-content h1 {
+        font-size: 2rem;
+        line-height: 1.2;}
+    
+        .slot-machine ul {
+        padding: 0rem;}
+        .slot-machine li {
+            text-align: center;
+            list-style-type: none; 
+            color: #0E4D92;
+            font-weight: 300;
+            height: 3rem;
+            margin-bottom: 2.63rem; }
     #main-nav {
         flex-direction: column;
         align-items: center; }
@@ -172,3 +186,9 @@ body {
     #about-section .about-info {
         grid-template-areas: 'bioimage' 'bio' 'view1' 'view2' 'view3';}
     }
+    #about-section .bio-image {
+        grid-area: bioimage;
+        border-radius:50%;
+        max-width: 800px;
+        padding-left: 0.5rem;
+        height: auto; }
