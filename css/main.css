@@ -130,7 +130,7 @@ body {
       #about-section .bio {
         grid-area: bio; 
         max-width: 800px;
-        width: 95%;
+        width: 100%;
         overflow: hidden;}
       
       #about-section .view1 {
@@ -164,7 +164,8 @@ body {
     
     #fancy-intro .intro-content h1 {
         font-size: 2rem;
-        line-height: 1.2;}
+        line-height: 1.2;
+    }
     
         .slot-machine ul {
         padding: 0rem;}
@@ -175,6 +176,7 @@ body {
             font-weight: 300;
             height: 3rem;
             margin-bottom: 2.63rem; }
+
     #main-nav {
         flex-direction: column;
         align-items: center; }
@@ -183,11 +185,16 @@ body {
         }
         #main-nav li {
           padding: 1rem; }
+
     #about-section .about-info {
         grid-template-areas: 'bioimage' 'bio' 'view1' 'view2' 'view3';}
-    }
     #about-section .bio-image {
         grid-area: bioimage;
         padding-left: 0rem;
         max-width: 800px;
         height: auto; }
+    #about-section .bio {
+        grid-area: bio; 
+        max-width: 800px;
+        overflow: hidden;}
+}
